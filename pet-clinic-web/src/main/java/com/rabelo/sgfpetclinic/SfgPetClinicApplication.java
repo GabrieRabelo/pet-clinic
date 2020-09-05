@@ -1,4 +1,4 @@
-package com.rabelo.sfgpetclinic;
+package com.rabelo.sgfpetclinic;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

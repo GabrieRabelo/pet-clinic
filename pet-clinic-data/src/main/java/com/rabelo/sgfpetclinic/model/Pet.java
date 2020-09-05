@@ -1,4 +1,4 @@
-package com.rabelo.sfgpetclinic.model;
+package com.rabelo.sgfpetclinic.model;
 
 import java.time.LocalDate;
 
