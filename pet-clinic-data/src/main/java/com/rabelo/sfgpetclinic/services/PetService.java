@@ -2,13 +2,6 @@ package com.rabelo.sfgpetclinic.services;
 
 import com.rabelo.sfgpetclinic.model.Pet;
 
-import java.util.Set;
+public interface PetService extends CrudService<Pet, Long> {
 
-public interface PetService {
-
-	Pet findById();
-
-	Pet save(Pet pet);
-
-	Set<Pet> findAll();
 }
