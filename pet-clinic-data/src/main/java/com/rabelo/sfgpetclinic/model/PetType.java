@@ -1,4 +1,4 @@
-package com.rabelo.sgfpetclinic.model;
+package com.rabelo.sfgpetclinic.model;
 
 public class PetType {
 
