@@ -1,11 +1,11 @@
 package com.rabelo.sfgpetclinic.services.map;
 
 import com.rabelo.sfgpetclinic.model.Vet;
-import com.rabelo.sfgpetclinic.services.CrudService;
+import com.rabelo.sfgpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
 	@Override
 	public Set<Vet> findAll() {
 		return super.findAll();
