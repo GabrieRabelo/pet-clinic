@@ -4,8 +4,6 @@ import com.rabelo.sfgpetclinic.model.Owner;
 import com.rabelo.sfgpetclinic.model.Vet;
 import com.rabelo.sfgpetclinic.services.OwnerService;
 import com.rabelo.sfgpetclinic.services.VetService;
-import com.rabelo.sfgpetclinic.services.map.OwnerServiceMap;
-import com.rabelo.sfgpetclinic.services.map.VetServiceMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;
