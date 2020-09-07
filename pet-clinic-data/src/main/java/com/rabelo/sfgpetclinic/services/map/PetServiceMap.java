@@ -2,7 +2,6 @@ package com.rabelo.sfgpetclinic.services.map;
 
 import com.rabelo.sfgpetclinic.model.Pet;
 import com.rabelo.sfgpetclinic.services.CrudService;
-import com.rabelo.sfgpetclinic.services.map.AbstractMapService;
 import org.springframework.stereotype.Service;
 
 import java.util.Set;
@@ -26,7 +25,7 @@ public class PetServiceMap extends AbstractMapService<Pet, Long> implements Crud
 
 	@Override
 	public Pet save(Pet object) {
-		return super.save(object.getId(), object);
+		return super.save(object);
 	}
 
 	@Override
